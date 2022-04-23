@@ -34,8 +34,8 @@ const data = [
     id: 4,
     image: PF1,
     title: "Portfolio Website built using HTML, CSS, JS and React",
-    github: "https://github.com/chaitu713/redux-crudops",
-    demo: "https://redux-crudop.netlify.app/",
+    github: "https://github.com/chaitu713/react-portfolio",
+    demo: "https://chaytuu7.netlify.app/",
   },
 ];
 
