@@ -8,17 +8,17 @@ import CRUD from "../../assets/CRUD.png";
 const data = [
   {
     id: 1,
-    image: CRUD1,
-    title: "CRUD Operations using React and Redux",
-    github: "https://github.com/chaitu713/redux-crudops",
-    demo: "https://redux-crudop.netlify.app/",
+    image: CRUD,
+    title: "CRUD Operations using React Hooks and Axios",
+    github: "https://github.com/chaitu713/react-crudops",
+    demo: "https://react-crudops.netlify.app/",
   },
 
   {
     id: 2,
-    image: CRUD,
-    title: "React CRUD Operations using Hooks",
-    github: "https://github.com/chaitu713/react-crudops",
+    image: CRUD1,
+    title: "CRUD Operations using React and Redux",
+    github: "https://github.com/chaitu713/redux-crudops",
     demo: "https://redux-crudop.netlify.app/",
   },
 
