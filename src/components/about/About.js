@@ -34,8 +34,8 @@ const About = () => {
             My name is Chaitanya. I am currently working in Tata Consultancy
             Services as Assistant Systems Engineer. I completed my Bachelors in
             Technology from Gudlavalleru Engineering College in 2020 with a CGPA
-            of 9.36. My interests are to work in Web Development and Data
-            Analytics. In my free time, I play Badminton.
+            of 9.36. My interests are to work in the fields of Web Development
+            and Data Analytics. My Hobbies are Playing Badminton and Cooking.
           </p>
 
           <a href="#contact" className="btn btn-primary">

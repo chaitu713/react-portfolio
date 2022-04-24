@@ -49,6 +49,7 @@ img {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+        margin-left: 2.1rem;
     }
 }
 
@@ -58,5 +59,6 @@ img {
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        margin-left: 1.2rem;
     }
 }

@@ -3,10 +3,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding-top: 0;
+    padding-bottom: 2.4rem;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
     border-radius: 2rem;
     border: 1px solid transparent;
 }
@@ -15,12 +17,26 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    border-top: var(--color-bg-variant);
 }
 
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: azure;
+    background-color: var(--color-primary-variant);
+    padding: 1rem;
+    border-radius: 2rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.experience__container>div h3:hover{
+    border-color: var(--color-primary-variant);
+    border: 1px solid transparent;
+    color: var(--color-white);
+    background: linear-gradient(var(--color-bg-variant), var(--color-primary-variant));
 }
 
 .experience__content {
@@ -32,6 +48,8 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .experience__details-icon {
@@ -48,12 +66,13 @@
 
     .experience__container > div {
         width: 80%;
-        padding: 2rem;
+        padding-top: 0rem;
         margin: 0 auto;
     }
 
     .experience__content {
         padding: 1rem;
+        margin-left: -1rem;
     }
 }
 
@@ -64,7 +83,13 @@
         gap: 1rem;
     }
     .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+        width: 90%;
+        /* padding: 2rem 1rem; */
+        padding-top: 0;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .experience__details {
+        padding:1.4rem;
     }
 }
