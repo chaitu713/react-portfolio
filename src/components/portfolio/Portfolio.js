@@ -9,9 +9,9 @@ const data = [
   {
     id: 1,
     image: CRUD,
-    title: "CRUD Operations using React Hooks and Axios",
-    github: "https://github.com/chaitu713/react-crudops",
-    demo: "https://react-crudops.netlify.app/",
+    title: "Admin UI project using React Hooks, Axios",
+    github: "https://github.com/chaitu713/admin-ui",
+    demo: "https://geekadmin-ui.netlify.app/",
   },
 
   {
